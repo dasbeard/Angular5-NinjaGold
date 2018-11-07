@@ -1,0 +1,30 @@
+h2{
+  margin-left: 1.45%;
+  padding-top: 25px;
+  padding-left: 15px;
+  outline: 1px solid black;
+  width: calc(23% - 15px);
+  height: 50px;
+}
+
+app-building{
+  display: inline-block;
+  width: 23%;
+  outline: 1px solid black;
+  margin-top: 15px;
+  margin-left: 1.45%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+app-log{
+  display: block;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 1.45%;
+  width: 97%;
+  min-height: 25px;
+  max-height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
